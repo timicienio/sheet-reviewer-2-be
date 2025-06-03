@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8000;
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:3000", // Your React app URL
+    origin: ["http://localhost:3000", "https://sheet-reviewer-2.vercel.app"], // Your React app URL
     credentials: true,
   })
 );
