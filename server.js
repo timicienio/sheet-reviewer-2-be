@@ -16,9 +16,9 @@ app.use(
 );
 app.use(express.json());
 
-app.get("/api", (req, res) => { 
+app.get("/", (req, res) => {
   res.send("Welcome to the Google OAuth Proxy Server");
-}
+});
 
 // Google OAuth token exchange endpoint
 app.post("/api/auth/google", async (req, res) => {
