@@ -13,6 +13,12 @@ dependencies:
   express:
     specifier: ^5.1.0
     version: 5.1.0
+  mime:
+    specifier: ^4.0.7
+    version: 4.0.7
+  mime-db:
+    specifier: ^1.54.0
+    version: 1.54.0
   node-fetch:
     specifier: ^3.3.2
     version: 3.3.2
@@ -345,6 +351,12 @@ packages:
     engines: {node: '>= 0.6'}
     dependencies:
       mime-db: 1.54.0
+    dev: false
+
+  /mime@4.0.7:
+    resolution: {integrity: sha512-2OfDPL+e03E0LrXaGYOtTFIYhiuzep94NSsuhrNULq+stylcJedcHdzHtz0atMUuGwJfFYs0YL5xeC/Ca2x0eQ==}
+    engines: {node: '>=16'}
+    hasBin: true
     dev: false
 
   /ms@2.1.3:
